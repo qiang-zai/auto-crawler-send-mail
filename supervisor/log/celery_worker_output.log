@@ -1,0 +1,19 @@
+ 
+ -------------- celery@qiangzai v4.4.7 (cliffs)
+--- ***** ----- 
+-- ******* ---- macOS-10.14.6-x86_64-i386-64bit 2020-08-28 14:24:02
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         spider:0x1046e8e20
+- ** ---------- .> transport:   redis://127.0.0.1:6379/1
+- ** ---------- .> results:     redis://127.0.0.1:6379/2
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . celery_task.task_execute_spider.test_celery
+

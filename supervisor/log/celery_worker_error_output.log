@@ -1,0 +1,62 @@
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+supervisor: couldn't setuid to 0: Can't drop privilege as nonroot user
+supervisor: child process was not spawned
+[2020-08-28 14:24:02,796: INFO/Beat] beat: Starting...
+[2020-08-28 14:24:02,837: INFO/Beat] Scheduler: Sending due task add-every-10-seconds (celery_task.task_execute_spider.test_celery)
+[2020-08-28 14:24:03,059: INFO/MainProcess] Connected to redis://127.0.0.1:6379/1
+[2020-08-28 14:24:03,071: INFO/MainProcess] mingle: searching for neighbors
+[2020-08-28 14:24:04,093: INFO/MainProcess] mingle: all alone
+[2020-08-28 14:24:04,106: INFO/MainProcess] celery@qiangzai ready.
+[2020-08-28 14:24:04,133: INFO/MainProcess] Received task: celery_task.task_execute_spider.test_celery[d3f4ebaa-575a-4fd3-9940-6e8ccda8f6d9]  
+[2020-08-28 14:24:04,216: WARNING/ForkPoolWorker-9] 第0页已完成数据爬取
+[2020-08-28 14:24:04,721: INFO/ForkPoolWorker-9] Task celery_task.task_execute_spider.test_celery[d3f4ebaa-575a-4fd3-9940-6e8ccda8f6d9] succeeded in 0.585756084s: 'test_celery任务结果:True'
+[2020-08-28 14:24:32,828: INFO/Beat] Scheduler: Sending due task add-every-10-seconds (celery_task.task_execute_spider.test_celery)
+[2020-08-28 14:24:32,830: INFO/MainProcess] Received task: celery_task.task_execute_spider.test_celery[92c4d673-e61e-4d2b-a245-32f414fb4b14]  
+[2020-08-28 14:24:32,908: WARNING/ForkPoolWorker-9] 第0页已完成数据爬取
+[2020-08-28 14:24:33,356: INFO/ForkPoolWorker-9] Task celery_task.task_execute_spider.test_celery[92c4d673-e61e-4d2b-a245-32f414fb4b14] succeeded in 0.5256882019999978s: 'test_celery任务结果:True'
+[2020-08-28 14:25:02,828: INFO/Beat] Scheduler: Sending due task add-every-10-seconds (celery_task.task_execute_spider.test_celery)
+[2020-08-28 14:25:02,830: INFO/MainProcess] Received task: celery_task.task_execute_spider.test_celery[70edebe8-7c0b-4fc0-a525-65e8c211da25]  
+[2020-08-28 14:25:02,894: WARNING/ForkPoolWorker-9] 第0页已完成数据爬取
+[2020-08-28 14:25:04,762: INFO/ForkPoolWorker-9] Task celery_task.task_execute_spider.test_celery[70edebe8-7c0b-4fc0-a525-65e8c211da25] succeeded in 1.931386107999998s: 'test_celery任务结果:True'
+[2020-08-28 14:25:32,828: INFO/Beat] Scheduler: Sending due task add-every-10-seconds (celery_task.task_execute_spider.test_celery)
+[2020-08-28 14:25:32,830: INFO/MainProcess] Received task: celery_task.task_execute_spider.test_celery[6b2092c0-e90e-461e-bddd-21cbec31109e]  
+[2020-08-28 14:25:32,894: WARNING/ForkPoolWorker-9] 第0页已完成数据爬取
+[2020-08-28 14:25:33,748: INFO/ForkPoolWorker-9] Task celery_task.task_execute_spider.test_celery[6b2092c0-e90e-461e-bddd-21cbec31109e] succeeded in 0.9172897460000087s: 'test_celery任务结果:True'
+[2020-08-28 14:26:02,828: INFO/Beat] Scheduler: Sending due task add-every-10-seconds (celery_task.task_execute_spider.test_celery)
+[2020-08-28 14:26:02,830: INFO/MainProcess] Received task: celery_task.task_execute_spider.test_celery[bf0c2b76-fb85-41ea-88e7-4072e09feb11]  
+[2020-08-28 14:26:02,897: WARNING/ForkPoolWorker-9] 第0页已完成数据爬取
+[2020-08-28 14:26:09,258: INFO/ForkPoolWorker-9] Task celery_task.task_execute_spider.test_celery[bf0c2b76-fb85-41ea-88e7-4072e09feb11] succeeded in 6.426927563000007s: 'test_celery任务结果:True'
+[2020-08-28 14:26:32,828: INFO/Beat] Scheduler: Sending due task add-every-10-seconds (celery_task.task_execute_spider.test_celery)
+[2020-08-28 14:26:32,830: INFO/MainProcess] Received task: celery_task.task_execute_spider.test_celery[2bee12d2-c071-4caf-b810-dac7798d05db]  
+[2020-08-28 14:26:32,895: WARNING/ForkPoolWorker-9] 第0页已完成数据爬取
+[2020-08-28 14:26:50,516: INFO/ForkPoolWorker-9] Task celery_task.task_execute_spider.test_celery[2bee12d2-c071-4caf-b810-dac7798d05db] succeeded in 17.685022779999997s: 'test_celery任务结果:True'
+[2020-08-28 14:27:02,828: INFO/Beat] Scheduler: Sending due task add-every-10-seconds (celery_task.task_execute_spider.test_celery)
+[2020-08-28 14:27:02,830: INFO/MainProcess] Received task: celery_task.task_execute_spider.test_celery[c6fd9307-faae-4bd2-9d32-e36173194be8]  
+[2020-08-28 14:27:02,888: WARNING/ForkPoolWorker-9] 第0页已完成数据爬取
+[2020-08-28 14:27:17,989: INFO/ForkPoolWorker-9] Task celery_task.task_execute_spider.test_celery[c6fd9307-faae-4bd2-9d32-e36173194be8] succeeded in 15.158505765000001s: 'test_celery任务结果:True'
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+[2020-08-28 14:27:19,194: INFO/MainProcess] beat: Shutting down...
